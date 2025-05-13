@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="repository.fastcolors" name="fastcolors" provider-name="fastcolors" version="3.0.0">
-    <extension name="Example Repository" point="xbmc.addon.repository">
+<addons><addon id="repository.fastcolors" name="fastcolors" provider-name="fastcolors" version="3.0.1">
+    <extension name="Fastcolors Repository" point="xbmc.addon.repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/fastcolors/repository.fastcolors/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/fastcolors/repository.fastcolors/master/repo/zips/addons.xml.md5</checksum>
