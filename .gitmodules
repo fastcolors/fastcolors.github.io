@@ -4,3 +4,6 @@
 [submodule "repo/skin.sio2"]
 	path = repo/skin.sio2
 	url = https://github.com/fastcolors/skin.sio2.git
+[submodule "repo/resource.uisounds.sio2"]
+	path = repo/resource.uisounds.sio2
+	url = https://github.com/fastcolors/resource.uisounds.sio2.git

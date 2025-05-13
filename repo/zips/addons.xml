@@ -17,17 +17,29 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="skin.sio2" name="SiO2" provider-name="FastColors" version="4.1.1">
+</addon><addon id="resource.uisounds.sio2" version="1.0.0" name="tvOS UI Sounds" provider-name="Fastcolors">
+
+  <requires>
+    <import addon="kodi.resource" version="1.0.0" />
+  </requires>
+
+  <extension point="kodi.resource.uisounds" />
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">SiO2 sounds</summary>
+    <description lang="en">SiO2 sounds</description>
+    <platform>all</platform>
+  </extension>
+</addon><addon id="skin.sio2" version="4.2.1" name="SiO2" provider-name="FastColors">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         
         <import addon="script.skinshortcuts" version="1.0.13" />
         
         <import addon="service.library.data.provider" version="0.0.4" />
-        
+        <import addon="resource.uisounds.sio2" version="1.0.0" />
     </requires>
-    <extension debugging="false" defaultthemename="Dark.xbt" effectslowdown="1" point="xbmc.gui.skin">
-        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    <extension point="xbmc.gui.skin" defaultthemename="Dark.xbt" effectslowdown="1" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
