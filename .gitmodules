@@ -1,3 +1,6 @@
 [submodule "skin.sio2"]
 	path = skin.sio2
 	url = https://github.com/fastcolors/skin.sio2.git
+[submodule "repo/skin.sio2"]
+	path = repo/skin.sio2
+	url = https://github.com/fastcolors/skin.sio2.git
