@@ -29,7 +29,7 @@
     <description lang="en">SiO2 sounds</description>
     <platform>all</platform>
   </extension>
-</addon><addon id="skin.sio2" version="4.2.4" name="SiO2" provider-name="FastColors">
+</addon><addon id="skin.sio2" version="4.2.5" name="SiO2" provider-name="FastColors">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         
